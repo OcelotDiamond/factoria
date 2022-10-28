@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "factoria:block/placeholder_block"
+    }
+  }
+}
