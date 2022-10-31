@@ -4,5 +4,41 @@
 
   "item.factoria.placeholder": "Placeholder",
 
+  "item.factoria.zinc_ingot": "Zinc Ingot",
+  "item.factoria.zinc_plate": "Zinc Plate",
+  "item.factoria.zinc_gear": "Zinc Gear",
+  "item.factoria.zinc_dust": "Zinc Dust",
+  "block.factoria.zinc_block": "Block of Zinc",
+
+  "item.factoria.silver_ingot": "Silver Ingot",
+  "item.factoria.silver_plate": "Silver Plate",
+  "item.factoria.silver_gear": "Silver Gear",
+  "item.factoria.silver_dust": "Silver Dust",
+  "block.factoria.silver_block": "Block of Silver",
+
+  "item.factoria.platinum_ingot": "Platinum Ingot",
+  "item.factoria.platinum_plate": "Platinum Plate",
+  "item.factoria.platinum_gear": "Platinum Gear",
+  "item.factoria.platinum_dust": "Platinum Dust",
+  "block.factoria.platinum_block": "Block of Platinum",
+
+  "item.factoria.brass_ingot": "Brass Ingot",
+  "item.factoria.brass_plate": "Brass Plate",
+  "item.factoria.brass_gear": "Brass Gear",
+  "item.factoria.brass_dust": "Brass Dust",
+  "block.factoria.brass_block": "Block of Brass",
+
+  "item.factoria.electrum_ingot": "Electrum Ingot",
+  "item.factoria.electrum_plate": "Electrum Plate",
+  "item.factoria.electrum_gear": "Electrum Gear",
+  "item.factoria.electrum_dust": "Electrum Dust",
+  "block.factoria.electrum_block": "Block of Electrum",
+
+  "item.factoria.unstable_ingot": "Unstable Ingot",
+  "item.factoria.unstable_plate": "Unstable Plate",
+  "item.factoria.unstable_gear": "Unstable Gear",
+  "item.factoria.unstable_dust": "Unstable Dust",
+  "block.factoria.unstable_block": "Block of Unstable Alloy",
+
   "block.factoria.placeholder_block": "Block of Placeholder"
 }

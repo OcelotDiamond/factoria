@@ -21,6 +21,13 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> PLACEHOLDER_BLOCK = registerBlock("placeholder_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3f).requiresCorrectToolForDrops()), ModItemGroup.MATERIALS);
 
+    public static final RegistryObject<Block> ZINC_BLOCK = registerBlock("zinc_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3f).requiresCorrectToolForDrops()), ModItemGroup.MATERIALS);
+    public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()), ModItemGroup.MATERIALS);
+    public static final RegistryObject<Block> PLATINUM_BLOCK = registerBlock("platinum_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()), ModItemGroup.MATERIALS);
+    public static final RegistryObject<Block> BRASS_BLOCK = registerBlock("brass_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()), ModItemGroup.MATERIALS);
+    public static final RegistryObject<Block> ELECTRUM_BLOCK = registerBlock("electrum_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4.5f).requiresCorrectToolForDrops()), ModItemGroup.MATERIALS);
+    public static final RegistryObject<Block> UNSTABLE_BLOCK = registerBlock("unstable_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()), ModItemGroup.MATERIALS);
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);
